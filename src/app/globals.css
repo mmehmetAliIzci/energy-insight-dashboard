@@ -11,7 +11,7 @@ html {
   :root {
     --altotechdark-02: rgba(120, 135, 150, 1);
     --altotechlight-02: rgba(239, 242, 247, 1);
-    --background: 0 0% 100%;
+    --background: 230, 100%, 99%, 1;
     --foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;

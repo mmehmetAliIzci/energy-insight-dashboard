@@ -22,9 +22,10 @@ export const Sidebar = () => {
 
   return (
     <aside
-      className={`flex flex-col ${
+      className={`flex flex-col border-r-1 border-solid border-gray bg-white ${
         isExpanded ? 'w-72' : 'w-20'
-      } shadow transition-all duration-100 ease-in-out`}
+      } transition-all duration-100 ease-in-out`}
+      
     >
       <div
         className={`mb-20 mt-10 flex h-16 items-center ${
@@ -43,9 +44,9 @@ export const Sidebar = () => {
             <li
               key={index}
               className={cn(
-                'flex cursor-pointer items-center gap-2 p-4 hover:bg-primary-200',
+                'flex cursor-pointer items-center gap-2 p-4 hover:bg-primary-200 hover:text-white',
                 {
-                  'bg-primary-200': pathname === item.path,
+                  'bg-primary-200 text-white': pathname === item.path,
                 }
               )}
               onClick={() => router.push(item.path)}

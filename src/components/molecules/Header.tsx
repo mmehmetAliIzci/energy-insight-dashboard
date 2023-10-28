@@ -1,11 +1,15 @@
 import React from 'react';
-import DateTimeComponent from '../molecules/DateTimeComponent';
+import dynamic from 'next/dynamic';
 
-export const Header = (): JSX.Element => {
+const DynamicDateTimeComponent = dynamic(() => import('./DateTimeComponent'), {
+  ssr: false,
+});
+
+export const Header = (): React.ReactNode => {
   return (
-    <div className='flex items-center h-[80px] justify-between px-6'>
+    <div className='flex h-[80px] items-center justify-between px-6'>
       <div
-      className='text-2xl font-semibold'
+        className='text-2xl font-semibold'
         style={{
           background:
             'linear-gradient(180deg, rgb(14, 126, 228) 0%, rgb(20, 184, 180) 100%)',
@@ -15,7 +19,7 @@ export const Header = (): JSX.Element => {
       >
         Energy Dashboard
       </div>
-      <DateTimeComponent /> 
+      <DynamicDateTimeComponent />
     </div>
   );
 };

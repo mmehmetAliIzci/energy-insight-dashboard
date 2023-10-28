@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b7e28c0-ec37-4fb2-a9a5-3e2cafb37c49" name="Changes" comment="" />
+    <list default="true" id="6b7e28c0-ec37-4fb2-a9a5-3e2cafb37c49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/image 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/weather/cloudy-rainy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/weather/cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/weather/lightning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/weather/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/weather/water-droplet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(user)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(user)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/typography/h4.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/typography/h5.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,39 +41,49 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2X4c1PQ8wUdkL376KyJfhewowY3" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mehmetaliizci/Projects/hobby/pdf-uploader/src/components/ui/typography&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/mehmetaliizci/Projects/hobby/pdf-uploader/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/mehmetaliizci/Projects/hobby/pdf-uploader/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mehmetaliizci/Projects/hobby/energy-insight-dashboard/src/components/ui/typography",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/mehmetaliizci/Projects/hobby/energy-insight-dashboard/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Users/mehmetaliizci/Projects/hobby/energy-insight-dashboard/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/ui/typography" />
+      <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/components/organisms/dropzone/steps" />
       <recent name="$PROJECT_DIR$/src/app/api/poll-compress" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/weather" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/app/(user)" />
+      <recent name="$PROJECT_DIR$/src/app/dashboard" />
+      <recent name="$PROJECT_DIR$/src/app" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.next">
@@ -61,6 +99,9 @@
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6b7e28c0-ec37-4fb2-a9a5-3e2cafb37c49" name="Changes" comment="" />
@@ -70,6 +111,7 @@
       <updated>1697891576823</updated>
       <workItem from="1697891578107" duration="7442000" />
       <workItem from="1698060110661" duration="34000" />
+      <workItem from="1698479105967" duration="13445000" />
     </task>
     <servers />
   </component>
@@ -86,5 +128,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/organisms/DashboardPage.tsx</url>
+          <line>120</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
