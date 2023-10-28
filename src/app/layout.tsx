@@ -5,6 +5,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import { Toaster } from '@/components/ui/toaster';
 import { Footer } from '@/components/organisms/Footer';
 import { Sidebar } from '@/components/organisms/Sidebar';
+import { Header } from '@/components/organisms/Header';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
           <div className='flex'>
             <Sidebar />
             <div className='flex min-h-screen w-full flex-col'>
+                <Header />
               <main className='flex h-full flex-col items-center justify-between p-24'>
                 {children}
               </main>
