@@ -1,0 +1,11 @@
+{
+  "hasSrc": true,
+  "packages": ["shadcn-ui"],
+  "preferredPackageManager": "yarn",
+  "rootPath": "src/",
+  "componentLib": "shadcn-ui",
+  "orm": null,
+  "driver": null,
+  "provider": null,
+  "auth": null
+}
