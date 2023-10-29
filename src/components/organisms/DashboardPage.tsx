@@ -5,6 +5,9 @@ import Image from 'next/image';
 import { today } from '@/lib/constants';
 import { TypographyH4 } from '@/components/ui/typography/h4';
 import { Progress } from '@/components/ui/progress';
+import Rooms from '@/components/molecules/Rooms/Rooms';
+import { Suspense } from 'react';
+import { RoomsListSkeleton } from '@/components/molecules/Rooms/RoomList/RoomsListSkeleton';
 
 const OverviewData = {
   data: {
@@ -92,7 +95,7 @@ type WeatherStatus =
   | 'rainy'
   | 'cloudy-rainy'
   | 'small-rainy';
-const getWeatherIcon = (status: string) => {
+const getWeatherIcon = (status: WeatherStatus) => {
   switch (status) {
     case 'sunny':
       return '/weather/sun.svg';
@@ -116,7 +119,7 @@ const getTextForPercentageChange = (percentageChange: number) => {
     return <span className='font-light'>{percentageChange}%</span>;
   }
 };
-export const DashboardPage = () => {
+export function DashboardPage() {
   const {
     data: { energy, savings },
   } = OverviewData;
@@ -138,8 +141,12 @@ export const DashboardPage = () => {
   } = WeatherData;
 
   return (
-    <div className='grid w-full grid-cols-3 grid-rows-1 gap-2'>
-      <div className='col-span-2 rounded-lg bg-amber-500 p-3.5 shadow'>1</div>
+    <div className='grid w-full grid-cols-1 grid-rows-1 gap-2 lg:grid-cols-3'>
+      <div className='col-span-2 rounded-lg p-3.5 shadow'>
+        <Suspense fallback={<RoomsListSkeleton />}>
+          <Rooms />
+        </Suspense>
+      </div>
 
       <div className='col-span-1 grid gap-2'>
         {/* Overview component needs suspense and call api with some delay */}
@@ -150,11 +157,11 @@ export const DashboardPage = () => {
               <Button>Download Report</Button>
             </CardTitle>
           </CardHeader>
-          <CardContent className='grid w-full grid-cols-1 grid-rows-1 justify-center lg:grid-cols-2'>
+          <CardContent className='grid w-full grid-cols-1 grid-rows-1 justify-center gap-4 xl:grid-cols-2'>
             <div className='flex flex-col gap-3'>
               <div className={'flex flex-col gap-2'}>
                 <span className='flex gap-1 font-light'>
-                  Total Savings
+                  Total Energy
                   <Image
                     alt={'energy icon'}
                     src={'/energy-icon.svg'}
@@ -164,7 +171,10 @@ export const DashboardPage = () => {
                 </span>
                 <div className={'flex flex-row items-end'}>
                   <TypographyH5>{energy.total.toLocaleString()}</TypographyH5>
-                  <span className='pl-2 font-light'> {energy.unit}</span>
+                  <span className='pl-2 text-sm font-light'>
+                    {' '}
+                    {energy.unit}
+                  </span>
                 </div>
               </div>
               {getTextForPercentageChange(energy.change)}
@@ -182,7 +192,10 @@ export const DashboardPage = () => {
                 </span>
                 <div className={'flex flex-row items-end'}>
                   <TypographyH5>{savings.total.toLocaleString()}</TypographyH5>
-                  <span className='pl-2 font-light'> {savings.unit}</span>
+                  <span className='pl-2   text-sm font-light'>
+                    {' '}
+                    {savings.unit}
+                  </span>
                 </div>
               </div>
               {getTextForPercentageChange(savings.change)}
@@ -192,7 +205,7 @@ export const DashboardPage = () => {
 
         {/* Energy Use */}
         <Card>
-          <div className={'flex flex-col gap-3 p-5 lg:flex-row'}>
+          <div className={'flex flex-col gap-3 p-5 xl:flex-row'}>
             <div className='flex flex-col'>
               <span className='text-xl font-semibold'>
                 Energy Use Intensity
@@ -221,7 +234,7 @@ export const DashboardPage = () => {
               <span className='text-xl font-semibold'>Carbon Footprint</span>
             </CardTitle>
           </CardHeader>
-          <CardContent className='grid w-full grid-cols-1 grid-rows-1 justify-center lg:grid-cols-2'>
+          <CardContent className='grid w-full grid-cols-1 grid-rows-1 justify-center xl:grid-cols-2'>
             <div className='flex flex-col gap-3'>
               <div>
                 <span className='flex gap-1 font-light'>
@@ -293,8 +306,8 @@ export const DashboardPage = () => {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className={'grid grid-cols-1 lg:grid-cols-2'}>
-              <div className={'mr-2.5 flex rounded-lg p-3 shadow-md'}>
+            <div className={'grid grid-cols-1 gap-4 xl:grid-cols-2'}>
+              <div className={'mr-2.5 flex w-fit rounded-lg p-3 shadow-md'}>
                 <div className={'flex flex-col'}>
                   <div className={'text-sm text-primary'}>
                     {today.toLocaleString('default', {
@@ -308,12 +321,12 @@ export const DashboardPage = () => {
                 </div>
                 <Image
                   alt={weather[0]?.status}
-                  src={getWeatherIcon(weather[0]?.status)}
+                  src={getWeatherIcon(weather[0]?.status as WeatherStatus)}
                   width={56}
                   height={56}
                 />
               </div>
-              <div className={'flex gap-1'}>
+              <div className={'flex w-full justify-around gap-1'}>
                 {weather.map((weather, index) => {
                   if (index === 0) {
                     return null;
@@ -325,7 +338,7 @@ export const DashboardPage = () => {
                         </span>
                         <Image
                           alt={weather.status}
-                          src={getWeatherIcon(weather.status)}
+                          src={getWeatherIcon(weather.status as WeatherStatus)}
                           width={29}
                           height={29}
                         />
@@ -341,4 +354,4 @@ export const DashboardPage = () => {
       </div>
     </div>
   );
-};
+}

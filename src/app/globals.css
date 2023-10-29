@@ -43,7 +43,7 @@ html {
     --secondary-600-foreground: 222.2 47.4% 11.2%;
 
     --accent: 30, 100%, 50%, 1;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent-foreground: 0, 0%, 100%, 1;
 
     --destructive: 0, 100%, 72%, 1;
     --destructive-foreground: 210 40% 98%;
@@ -97,4 +97,20 @@ html {
       'rlig' 1,
       'calt' 1;
   }
+}
+
+/* Global scrollbars styling */
+::-webkit-scrollbar {
+  width: 4px; /* Width of vertical scrollbar */
+  height: 10px; /* Height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(217, 100%, 80%, 1);
+  border-radius: 5px; /* Rounded corners on the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(229, 231, 235, 0.5); /* Color of the track (background of the scrollbar) */
+  border-radius: 5px; /* Rounded corners on the track */
 }

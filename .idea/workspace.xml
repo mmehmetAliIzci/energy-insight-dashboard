@@ -5,29 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b7e28c0-ec37-4fb2-a9a5-3e2cafb37c49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/image 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/weather/cloudy-rainy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/weather/cloudy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/weather/lightning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/weather/sun.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/weather/water-droplet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(user)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(user)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/error.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/typography/h4.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/typography/h5.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-conditions/clean.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-conditions/dirty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-conditions/user-block.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-conditions/wifi-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/room-conditions/wrench.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomFilters/filterReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomList/RoomsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomList/RoomsListSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/Rooms.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomsContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(user)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/RoomsList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/DashboardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/DashboardPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mehmetaliizci/Projects/hobby/energy-insight-dashboard/src/components/ui/typography",
+    "last_opened_file_path": "/Users/mehmetaliizci/Projects/hobby/energy-insight-dashboard/src/components/molecules/Rooms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,17 +66,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/molecules/Rooms" />
       <recent name="$PROJECT_DIR$/src/components/ui/typography" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/components/organisms/dropzone/steps" />
       <recent name="$PROJECT_DIR$/src/app/api/poll-compress" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/room-conditions" />
+      <recent name="$PROJECT_DIR$/src/components/molecules/Rooms/RoomList" />
+      <recent name="$PROJECT_DIR$/src/components/molecules/Rooms/RoomFilters" />
+      <recent name="$PROJECT_DIR$/src/components/molecules/Rooms" />
       <recent name="$PROJECT_DIR$/public/weather" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/app/(user)" />
-      <recent name="$PROJECT_DIR$/src/app/dashboard" />
-      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/components/molecules/Rooms/Filters.tsx" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.next">
@@ -111,7 +108,7 @@
       <updated>1697891576823</updated>
       <workItem from="1697891578107" duration="7442000" />
       <workItem from="1698060110661" duration="34000" />
-      <workItem from="1698479105967" duration="13445000" />
+      <workItem from="1698479105967" duration="28361000" />
     </task>
     <servers />
   </component>
@@ -128,17 +125,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/organisms/DashboardPage.tsx</url>
-          <line>120</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
