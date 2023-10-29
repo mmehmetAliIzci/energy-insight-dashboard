@@ -8,13 +8,12 @@ import {
 import { Button } from '@/components/ui/button';
 import { Command, CommandGroup, CommandItem } from '@/components/ui/command';
 import { CheckIcon } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { cn, getConditionImage } from '@/lib/utils';
 import { Toggle } from '@/components/ui/toggle';
 import { useContext, useEffect, useReducer, useState } from 'react';
-import { filterReducer } from '@/components/molecules/Rooms/RoomFilters/filterReducer';
-import { RoomsContext } from '@/components/molecules/Rooms/RoomsContext';
+import { filterReducer } from '@/lib/reducer/filterReducer';
+import { RoomsContext } from '@/lib/context/RoomsContext';
 import Image from 'next/image';
-import { getConditionImage } from '@/components/molecules/Rooms/RoomList/RoomsList';
 
 export interface FilterState {
   status: Partial<Record<RoomStatus, boolean>>;

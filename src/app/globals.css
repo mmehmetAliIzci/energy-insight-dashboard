@@ -37,6 +37,10 @@ html {
     --primary-700: 217, 72%, 38%, 1;
     --primary-700-foreground: 0, 0%, 100%, 1;
 
+    --secondary-200: 177, 85%, 60%, 1;
+    --secondary-200-foreground: 222.2, 47.4%, 11.2%, 1;
+    --secondary-400: 177, 85%, 50%, 1;
+    --secondary-400-foreground: 222.2, 47.4%, 11.2%, 1;
     --secondary-500: 177, 85%, 40%, 1;
     --secondary-500-foreground: 222.2 47.4% 11.2%;
     --secondary-600: 177, 85%, 30%, 1;

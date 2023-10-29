@@ -1,7 +1,7 @@
-import RoomFilters from '@/components/molecules/Rooms/RoomFilters/RoomFilters';
+import RoomFilters from '@/components/molecules/RoomFilters/RoomFilters';
 import { Room } from '@/app/api/rooms/route';
-import { RoomsProvider } from '@/components/molecules/Rooms/RoomsContext';
-import { RoomsList } from '@/components/molecules/Rooms/RoomList/RoomsList';
+import { RoomsProvider } from '@/lib/context/RoomsContext';
+import { RoomsList } from '@/components/molecules/RoomList/RoomsList';
 
 async function fetchRooms(): Promise<Room[]> {
   try {

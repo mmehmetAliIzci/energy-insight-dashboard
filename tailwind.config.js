@@ -47,6 +47,11 @@ module.exports = {
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary-500))',
+          foreground: 'hsl(var(--secondary-500-foreground))',
+          200: 'hsl(var(--secondary-200))',
+          '200-foreground': 'hsl(var(--secondary-200-foreground))',
+          400: 'hsl(var(--secondary-400))',
+          '400-foreground': 'hsl(var(--secondary-400-foreground))',
           500: 'hsl(var(--secondary-500))',
           '500-foreground': 'hsl(var(--secondary-500-foreground))',
           600: 'hsl(var(--secondary-600))',

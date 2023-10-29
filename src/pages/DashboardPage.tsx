@@ -1,12 +1,12 @@
-import Rooms from '@/components/molecules/Rooms/Rooms';
+import Rooms from '@/components/organisms/Rooms';
 import { Suspense } from 'react';
-import { RoomsListSkeleton } from '@/components/molecules/Rooms/RoomList/RoomsListSkeleton';
+import { RoomsListSkeleton } from '@/components/molecules/RoomList/RoomsListSkeleton';
 import { Skeleton } from '@/components/ui/skeleton';
-import EnergySavingsOverview from '@/components/molecules/EnergySavingsOverview/EnergySavingsOverview';
-import EnergyIntensity from '@/components/molecules/EnergyIntensity/EnergyIntensity';
-import Weather from '@/components/molecules/Weather/Weather';
-import CarbonFootprint from '@/components/molecules/CarbonFootprint/CarbonFootprint';
-import PeopleOccupancy from '@/components/molecules/PeopleOccupancy/PeopleOccupancy';
+import EnergySavingsOverview from '@/components/organisms/EnergySavingsOverview/EnergySavingsOverview';
+import EnergyIntensity from '@/components/organisms/EnergyIntensity/EnergyIntensity';
+import Weather from '@/components/organisms/Weather/Weather';
+import CarbonFootprint from '@/components/organisms/CarbonFootprint/CarbonFootprint';
+import PeopleOccupancy from '@/components/organisms/PeopleOccupancy/PeopleOccupancy';
 
 export function DashboardPage() {
   return (

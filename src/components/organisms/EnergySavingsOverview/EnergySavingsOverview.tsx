@@ -72,7 +72,6 @@ async function EnergySavingsOverview() {
                 {overview.energy.total.toLocaleString()}
               </TypographyH5>
               <span className='pl-2 text-sm font-light'>
-                {' '}
                 {overview.energy.unit}
               </span>
             </div>
@@ -95,7 +94,6 @@ async function EnergySavingsOverview() {
                 {overview.savings.total.toLocaleString()}
               </TypographyH5>
               <span className='pl-2   text-sm font-light'>
-                {' '}
                 {overview.savings.unit}
               </span>
             </div>

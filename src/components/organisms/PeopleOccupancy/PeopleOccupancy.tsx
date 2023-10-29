@@ -62,7 +62,7 @@ async function PeopleOccupancy() {
               <span>Occupied Rooms</span>
             </div>
             <div>
-              <span className='font-bold'>{peopleOccupancy.occupiedRooms}</span>{' '}
+              <span className='font-bold'>{peopleOccupancy.occupiedRooms}</span>
               rooms
               <span className={'ml-2 text-primary'}>
                 {(
@@ -79,7 +79,7 @@ async function PeopleOccupancy() {
               <span>Empty Rooms</span>
             </div>
             <div>
-              <span className='font-bold'>{peopleOccupancy.emptyRooms}</span>{' '}
+              <span className='font-bold'>{peopleOccupancy.emptyRooms}</span>
               rooms
               <span className={'ml-2 text-secondary'}>
                 {(

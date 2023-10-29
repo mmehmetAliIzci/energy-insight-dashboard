@@ -9,7 +9,7 @@ import {
 } from 'react';
 
 import { Room } from '@/app/api/rooms/route';
-import { FilterState } from '@/components/molecules/Rooms/RoomFilters/RoomFilters';
+import { FilterState } from '@/components/molecules/RoomFilters/RoomFilters';
 
 export type RoomsContextType = {
   rooms: Room[];
