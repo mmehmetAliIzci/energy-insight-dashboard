@@ -18,7 +18,9 @@ export default function UserLayout({
         <div className='flex min-h-screen w-full flex-col'>
           <Header />
           <main className='flex h-full flex-col items-center justify-between bg-background p-4'>
-            {children}
+            <Suspense fallback={<Skeleton className={'h-32 w-full'} />}>
+              {children}
+            </Suspense>
           </main>
           <Footer />
         </div>
