@@ -47,16 +47,15 @@ async function CarbonFootprint() {
       </CardHeader>
       <CardContent className='grid w-full grid-cols-1  grid-rows-1 justify-center gap-4 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2'>
         <div className='flex flex-col gap-3'>
-          <div>
-            <span className='flex gap-1 font-light'>Total Carbon Reduced</span>
+          <span className='flex gap-1 font-light'>Total Carbon Reduced</span>
+          <div className={'flex flex-row items-center gap-2'}>
             <TypographyH5>{carbonFootprint.carbonReduced}</TypographyH5>
             <span className='font-light'> t-CO2</span>
           </div>
-          <span className={'text-secondary'}>+24,45%</span>
         </div>
         <div className='flex flex-col gap-3'>
-          <div>
-            <span className='flex gap-1 font-light'>Tree Saved</span>
+          <span className='flex gap-1 font-light'>Tree Saved</span>
+          <div className={'flex flex-row items-center gap-2'}>
             <TypographyH5>{carbonFootprint.treesSaved}</TypographyH5>
             <span className='font-light'> trees</span>
           </div>

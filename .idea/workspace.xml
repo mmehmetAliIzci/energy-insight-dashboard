@@ -5,37 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b7e28c0-ec37-4fb2-a9a5-3e2cafb37c49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(user)/device/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(user)/room/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/device/id/[slug]/route.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/rooms/search/id/[slug]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/HistoricalDataChart/HistoricalDataChart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/RealtimeDataChart/HistoricalDataChart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/IotControlCard/IotControlCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/DeviceDetailPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/RoomDetailPageContent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(user)/device/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/device/[slug]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(user)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(user)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/CarbonFootprint/CarbonFootprint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/CarbonFootprint/CarbonFootprint.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/EnergyIntensity/EnergyIntensity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/EnergyIntensity/EnergyIntensity.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/EnergySavingsOverview/EnergySavingsOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/EnergySavingsOverview/EnergySavingsOverview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/PeopleOccupancy/PeopleOccupancy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/PeopleOccupancy/PeopleOccupancy.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomFilters/RoomFilters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/RoomFilters/RoomFilters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomFilters/filterReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/reducer/filterReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomList/RoomsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/RoomList/RoomsList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomList/RoomsListSkeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/RoomList/RoomsListSkeleton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rooms/Rooms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Rooms.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomsContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/context/RoomsContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Weather/Weather.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Weather/Weather.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/DashboardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DashboardPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(user)/room/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/room/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/RoomFilters/RoomFilters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/RoomFilters/RoomFilters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/CarbonFootprint/CarbonFootprint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/CarbonFootprint/CarbonFootprint.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/DashboardPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/DeviceDetailPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RoomDetailPageContent.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +102,7 @@
       <updated>1697891576823</updated>
       <workItem from="1697891578107" duration="7442000" />
       <workItem from="1698060110661" duration="34000" />
-      <workItem from="1698479105967" duration="43951000" />
+      <workItem from="1698479105967" duration="48269000" />
     </task>
     <servers />
   </component>
@@ -139,5 +119,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/(user)/layout.tsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/(user)/room/[slug]/page.tsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

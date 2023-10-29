@@ -117,7 +117,7 @@ const RoomFilters = () => {
       {/* Conditions Filter */}
       <div className={'flex flex-col'}>
         <h5 className='text-primary'>Conditions:</h5>
-        <div className={'grid grid-cols-2 gap-3 lg:grid-cols-2'}>
+        <div className={'grid grid-cols-2 gap-3 lg:grid-cols-4'}>
           <Toggle
             variant={'outline'}
             pressed={filters.conditions.clean}
