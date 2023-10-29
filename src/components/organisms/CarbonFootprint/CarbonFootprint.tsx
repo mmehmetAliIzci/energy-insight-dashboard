@@ -8,7 +8,7 @@ import { CarbonFootprint } from '@/app/api/rooms/carbon-footprint/route';
 
 async function fetchCarbonFootprint(): Promise<CarbonFootprint | undefined> {
   try {
-    const res = await fetch('http://localhost:3000/api/rooms/carbon-footprint');
+    const res = await fetch(`${process.env.API_URL}/api/rooms/carbon-footprint`);
     if (!res.ok) {
       throw new Error('Rooms api returned 200');
     }

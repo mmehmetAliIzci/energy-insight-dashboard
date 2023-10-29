@@ -10,9 +10,7 @@ import Image from 'next/image';
 async function getRoomFromId(id: string): Promise<RoomDetailsType | undefined> {
   if (id !== '') {
     try {
-      const res = await fetch(
-        `http://localhost:3000/api/rooms/search/id/${id}`
-      );
+      const res = await fetch(`${process.env.API_URL}/api/rooms/search/id/${id}`);
       if (res.status !== 200) {
         throw new Error('BE API returned not 200');
       }

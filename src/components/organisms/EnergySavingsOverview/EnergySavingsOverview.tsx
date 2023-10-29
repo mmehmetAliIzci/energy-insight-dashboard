@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 
 async function fetchOverview(): Promise<EnergySavingsOverview | undefined> {
   try {
-    const res = await fetch('http://localhost:3000/api/rooms/overview');
+    const res = await fetch(`${process.env.API_URL}/api/rooms/overview`);
     if (!res.ok) {
       throw new Error('Rooms api returned 200');
     }

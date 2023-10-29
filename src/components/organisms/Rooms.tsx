@@ -5,7 +5,7 @@ import { RoomsList } from '@/components/molecules/RoomList/RoomsList';
 
 async function fetchRooms(): Promise<Room[]> {
   try {
-    const res = await fetch('http://localhost:3000/api/rooms');
+    const res = await fetch(`${process.env.API_URL}/api/rooms`);
     if (!res.ok) {
       throw new Error('Rooms api returned 200');
     }

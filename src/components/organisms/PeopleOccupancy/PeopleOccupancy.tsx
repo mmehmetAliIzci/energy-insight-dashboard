@@ -10,7 +10,7 @@ import { PeopleOccupancy } from '@/app/api/rooms/people-occupancy/route';
 
 async function fetchPeopleOccupancy(): Promise<PeopleOccupancy | undefined> {
   try {
-    const res = await fetch('http://localhost:3000/api/rooms/people-occupancy');
+    const res = await fetch(`${process.env.API_URL}/api/rooms/people-occupancy`);
     if (!res.ok) {
       throw new Error('Rooms api returned 200');
     }

@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b7e28c0-ec37-4fb2-a9a5-3e2cafb37c49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(user)/device/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/device/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(user)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(user)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(user)/room/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/room/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/RoomFilters/RoomFilters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/RoomFilters/RoomFilters.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/CarbonFootprint/CarbonFootprint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/CarbonFootprint/CarbonFootprint.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DashboardPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DeviceDetailPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RoomDetailPageContent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/EnergyIntensity/EnergyIntensity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/EnergyIntensity/EnergyIntensity.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/EnergySavingsOverview/EnergySavingsOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/EnergySavingsOverview/EnergySavingsOverview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/PeopleOccupancy/PeopleOccupancy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/PeopleOccupancy/PeopleOccupancy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Rooms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Rooms.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Weather/Weather.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Weather/Weather.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/mehmetaliizci/Projects/hobby/energy-insight-dashboard/src/components/molecules",
+    "last_opened_file_path": "/Users/mehmetaliizci/Projects/hobby/energy-insight-dashboard",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/molecules" />
       <recent name="$PROJECT_DIR$/src/app/(user)/device/[slug]" />
       <recent name="$PROJECT_DIR$/src/components/molecules/PeopleOccupancy" />
       <recent name="$PROJECT_DIR$/src/app/api/rooms/people-occupancy" />
-      <recent name="$PROJECT_DIR$/src/app/api/rooms" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/organisms" />
@@ -102,7 +102,7 @@
       <updated>1697891576823</updated>
       <workItem from="1697891578107" duration="7442000" />
       <workItem from="1698060110661" duration="34000" />
-      <workItem from="1698479105967" duration="48269000" />
+      <workItem from="1698479105967" duration="49061000" />
     </task>
     <servers />
   </component>

@@ -7,9 +7,7 @@ async function getDeviceInfoFromId(
 ): Promise<DeviceDetailsResponse | undefined> {
   if (id !== '') {
     try {
-      const res = await fetch(
-        `http://localhost:3000/api/device/id/${id}?historical=true`
-      );
+      const res = await fetch(`${process.env.BE_URL}/api/device/id/${id}?historical=true`);
       if (res.status !== 200) {
         throw new Error('BE API returned not 200');
       }

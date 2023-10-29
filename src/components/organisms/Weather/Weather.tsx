@@ -5,7 +5,7 @@ import { Weather, WeatherStatus } from '@/app/api/weather/route';
 
 async function fetchWeather(): Promise<Weather | undefined> {
   try {
-    const res = await fetch('http://localhost:3000/api/weather');
+    const res = await fetch(`${process.env.API_URL}/api/weather`);
     if (!res.ok) {
       throw new Error('Rooms api returned 200');
     }
