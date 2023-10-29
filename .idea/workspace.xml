@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b7e28c0-ec37-4fb2-a9a5-3e2cafb37c49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/room-conditions/clean.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-conditions/dirty.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-conditions/user-block.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-conditions/wifi-off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/room-conditions/wrench.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomFilters/filterReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomList/RoomsList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomList/RoomsListSkeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/Rooms.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomsContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(user)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/RoomsList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomFilters/RoomFilters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/RoomFilters/RoomFilters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Rooms/Rooms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Rooms/Rooms.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/DashboardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/DashboardPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +95,7 @@
       <updated>1697891576823</updated>
       <workItem from="1697891578107" duration="7442000" />
       <workItem from="1698060110661" duration="34000" />
-      <workItem from="1698479105967" duration="28361000" />
+      <workItem from="1698479105967" duration="28854000" />
     </task>
     <servers />
   </component>

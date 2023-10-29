@@ -157,7 +157,7 @@ export function DashboardPage() {
               <Button>Download Report</Button>
             </CardTitle>
           </CardHeader>
-          <CardContent className='grid w-full grid-cols-1 grid-rows-1 justify-center gap-4 xl:grid-cols-2'>
+          <CardContent className='grid w-full grid-cols-1  grid-rows-1 justify-center gap-4 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2'>
             <div className='flex flex-col gap-3'>
               <div className={'flex flex-col gap-2'}>
                 <span className='flex gap-1 font-light'>
@@ -234,7 +234,7 @@ export function DashboardPage() {
               <span className='text-xl font-semibold'>Carbon Footprint</span>
             </CardTitle>
           </CardHeader>
-          <CardContent className='grid w-full grid-cols-1 grid-rows-1 justify-center xl:grid-cols-2'>
+          <CardContent className='grid w-full grid-cols-1  grid-rows-1 justify-center gap-4 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2'>
             <div className='flex flex-col gap-3'>
               <div>
                 <span className='flex gap-1 font-light'>
@@ -306,7 +306,11 @@ export function DashboardPage() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className={'grid grid-cols-1 gap-4 xl:grid-cols-2'}>
+            <div
+              className={
+                'grid w-full grid-cols-1  grid-rows-1 justify-center gap-4 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2'
+              }
+            >
               <div className={'mr-2.5 flex w-fit rounded-lg p-3 shadow-md'}>
                 <div className={'flex flex-col'}>
                   <div className={'text-sm text-primary'}>

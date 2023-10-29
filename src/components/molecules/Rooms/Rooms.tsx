@@ -22,7 +22,7 @@ async function Rooms() {
 
   return (
     <RoomsProvider initialRooms={rooms}>
-      <div className={'max-h-screen overflow-y-scroll'}>
+      <div className={'max-h-screen overflow-y-scroll p-2'}>
         <RoomFilters />
         <RoomsList />
       </div>

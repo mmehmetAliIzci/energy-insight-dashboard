@@ -67,7 +67,7 @@ const RoomFilters = () => {
   }, [filters, filterRooms]);
 
   return (
-    <div className='mb-3 flex gap-3'>
+    <div className='mb-3 flex flex-col gap-3 md:flex-row'>
       {/* Status Filter */}
       <div className={'flex flex-col'}>
         <h5 className='text-primary'>Status:</h5>
@@ -113,6 +113,7 @@ const RoomFilters = () => {
         </Popover>
       </div>
 
+      {/* Conditions Filter */}
       <div className={'flex flex-col'}>
         <h5 className='text-primary'>Conditions:</h5>
         <div className={'flex gap-3'}>
