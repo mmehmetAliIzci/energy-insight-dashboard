@@ -69,7 +69,7 @@ export async function GET() {
     const generatedRooms: Room[] = generateRooms(100);
 
     // Simulate a 1 second delay before returning the response
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 3500));
     return NextResponse.json(generatedRooms); // Pass the resolved JSON data here
   } catch (error) {
     return NextResponse.json({ error }, { status: 500 });

@@ -13,6 +13,8 @@ import { Toggle } from '@/components/ui/toggle';
 import { useContext, useEffect, useReducer, useState } from 'react';
 import { filterReducer } from '@/components/molecules/Rooms/RoomFilters/filterReducer';
 import { RoomsContext } from '@/components/molecules/Rooms/RoomsContext';
+import Image from 'next/image';
+import { getConditionImage } from '@/components/molecules/Rooms/RoomList/RoomsList';
 
 export interface FilterState {
   status: Partial<Record<RoomStatus, boolean>>;
@@ -116,34 +118,66 @@ const RoomFilters = () => {
       {/* Conditions Filter */}
       <div className={'flex flex-col'}>
         <h5 className='text-primary'>Conditions:</h5>
-        <div className={'flex gap-3'}>
+        <div className={'grid grid-cols-2 gap-3 lg:grid-cols-2'}>
           <Toggle
             variant={'outline'}
             pressed={filters.conditions.clean}
             onClick={() => toggleFilter('conditions', 'clean')}
           >
-            Clean
+            <div className={'flex gap-1'}>
+              <Image
+                alt={'clean icon'}
+                src={getConditionImage('clean')}
+                height={20}
+                width={20}
+              />
+              Clean
+            </div>
           </Toggle>
           <Toggle
             variant={'outline'}
             pressed={filters.conditions.dirty}
             onClick={() => toggleFilter('conditions', 'dirty')}
           >
-            Dirty
+            <div className={'flex gap-1'}>
+              <Image
+                alt={'dirty icon'}
+                src={getConditionImage('dirty')}
+                height={20}
+                width={20}
+              />
+              Dirty
+            </div>
           </Toggle>
           <Toggle
             variant={'outline'}
             pressed={filters.conditions.maintenance}
             onClick={() => toggleFilter('conditions', 'maintenance')}
           >
-            Maintenance
+            <div className={'flex gap-1'}>
+              <Image
+                alt={'maintenance icon'}
+                src={getConditionImage('maintenance')}
+                height={20}
+                width={20}
+              />
+              Maintenance
+            </div>
           </Toggle>
           <Toggle
             variant={'outline'}
             pressed={filters.conditions.IOT_disconnected}
             onClick={() => toggleFilter('conditions', 'IOT_disconnected')}
           >
-            IoT Disconnected
+            <div className={'flex gap-1'}>
+              <Image
+                alt={'IOT_disconnected icon'}
+                src={getConditionImage('IOT_disconnected')}
+                height={20}
+                width={20}
+              />
+              IoT Disconnected
+            </div>
           </Toggle>
         </div>
       </div>

@@ -5,7 +5,7 @@ import { useContext } from 'react';
 import { RoomsContext } from '@/components/molecules/Rooms/RoomsContext';
 import { RoomCondition } from '@/app/api/rooms/route';
 
-const getConditionImage = (condition: RoomCondition) => {
+export const getConditionImage = (condition: RoomCondition) => {
   switch (condition) {
     case 'clean':
       return '/room-conditions/clean.svg';
