@@ -11,7 +11,9 @@ function generateCarbonFootprint(): CarbonFootprint {
     treesSaved: Math.floor(Math.random() * 10000), // Random value up to 10,000
   };
 }
-
+export const fetchCache = 'force-no-store';
+export const dynamic = 'force-dynamic';
+export const revalidate = 1;
 export async function GET() {
   try {
     const carbonFootprintData: CarbonFootprint = generateCarbonFootprint();

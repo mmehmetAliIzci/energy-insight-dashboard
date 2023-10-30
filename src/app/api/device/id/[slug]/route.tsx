@@ -78,6 +78,9 @@ function generateDeviceRealTimeData(): RealTimeDataResponse {
 }
 
 // API Endpoint
+export const fetchCache = 'force-no-store';
+export const dynamic = 'force-dynamic';
+export const revalidate = 1;
 
 export type DeviceDetailsResponse = {
   deviceId: string;
@@ -99,8 +102,8 @@ export async function GET(
     let responseRealTime = generateDeviceRealTimeData();
 
     response = {
-      deviceId: responseHistorical.deviceId,
-      deviceName: responseHistorical.deviceName,
+      deviceId: id,
+      deviceName: id,
       historicalData: responseHistorical.data,
       realTimeData: responseRealTime.data,
     };

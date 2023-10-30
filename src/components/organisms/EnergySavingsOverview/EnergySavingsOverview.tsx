@@ -2,7 +2,6 @@ import { EnergySavingsOverview } from '@/app/api/rooms/overview/route';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Image from 'next/image';
 import { TypographyH5 } from '@/components/ui/typography/h5';
-import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
 async function fetchOverview(): Promise<EnergySavingsOverview | undefined> {

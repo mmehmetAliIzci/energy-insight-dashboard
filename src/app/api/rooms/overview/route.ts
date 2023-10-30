@@ -54,7 +54,9 @@ function generateOverviewData(): EnergySavingsOverview {
     savings: generateRandomSavings(),
   };
 }
-
+export const fetchCache = 'force-no-store';
+export const dynamic = 'force-dynamic';
+export const revalidate = 1;
 export async function GET() {
   try {
     const overviewData: EnergySavingsOverview = generateOverviewData();

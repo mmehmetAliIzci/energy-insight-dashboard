@@ -1,14 +1,12 @@
-import { today } from '@/lib/constants';
-import { TypographyH4 } from '@/components/ui/typography/h4';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { EnergySavingsOverview } from '@/app/api/rooms/overview/route';
-import { EnergyIntensity } from '@/app/api/rooms/energy-intensity/route';
 import { TypographyH5 } from '@/components/ui/typography/h5';
 import { CarbonFootprint } from '@/app/api/rooms/carbon-footprint/route';
 
 async function fetchCarbonFootprint(): Promise<CarbonFootprint | undefined> {
   try {
-    const res = await fetch(`${process.env.API_URL}/api/rooms/carbon-footprint`);
+    const res = await fetch(
+      `${process.env.API_URL}/api/rooms/carbon-footprint`
+    );
     if (!res.ok) {
       throw new Error('Rooms api returned 200');
     }

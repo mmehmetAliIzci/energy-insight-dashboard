@@ -6,6 +6,7 @@ import {
   useCallback,
   SetStateAction,
   Dispatch,
+  useEffect,
 } from 'react';
 
 import { Room } from '@/app/api/rooms/route';
@@ -61,6 +62,11 @@ export const RoomsProvider = ({
     },
     [rooms]
   );
+
+  useEffect(() => {
+    setRooms(initialRooms);
+    setFilteredRooms(initialRooms);
+  }, [initialRooms]);
 
   return (
     <RoomsContext.Provider
