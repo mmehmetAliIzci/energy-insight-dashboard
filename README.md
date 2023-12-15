@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Energy Management Platform
+
+An advanced web application tailored for the dynamic needs of hotel energy management, showcasing cutting-edge frontend technologies and design practices.
+
+[TRY AT https://energy-insights-dashboard.vercel.app/](https://energy-insights-dashboard.vercel.app/)
+A streamlined and efficient web application for uploading and compressing PDFs.
+
+![Demo](./assets/demo.gif)
 
 # Technological Decisions and Design Choices
 
@@ -14,16 +21,21 @@ Given our group's technological stack and the anticipated requirements of the pr
 ## Website Design and Challenges
 
 - **ID-Based Routing**: Adopted to facilitate direct device or room access via links. Such a design offers multiple benefits:
-    - Clean representation of pages and code.
-    - Leveraging Next.js's server-side rendering and caching.
-    - Enhanced speed and efficiency.
-    - Simplified debugging and testing as compared to popup-based navigation.
+  - Clean representation of pages and code.
+  - Leveraging Next.js's server-side rendering and caching.
+  - Enhanced speed and efficiency.
+  - Simplified debugging and testing as compared to popup-based navigation.
 
 Example Routes:
+
 - `localhost:3000/room/123`
 - `localhost:3000/device/123`
 
+- **Responsive Layout**: Achieves flawless adaptability across all device sizes, thanks to Tailwind CSS utilities.
+- **Custom Design System**: Developed through Class Variant Authority and Shadcn for a unified and scalable user interface.
+
 Considering potential future needs, we might:
+
 - Incorporate localization.
 - Track page speed, information, and other relevant metrics. The ID-based structure is more apt for these purposes.
 
@@ -44,28 +56,3 @@ If granted more time, I would:
 - Implement universal logging.
 - Craft unit tests using Jest.
 - Design end-to-end tests using Playwright.
-- Launch a dedicated device information page.
-
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
