@@ -9,8 +9,8 @@ html {
 
 @layer base {
   :root {
-    --altotechdark-02: rgba(120, 135, 150, 1);
-    --altotechlight-02: rgba(239, 242, 247, 1);
+    --netzerotechdark-02: rgba(120, 135, 150, 1);
+    --netzerotechlight-02: rgba(239, 242, 247, 1);
     --background: 230, 100%, 99%, 1;
     --foreground: 222.2 47.4% 11.2%;
 
@@ -115,6 +115,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(229, 231, 235, 0.5); /* Color of the track (background of the scrollbar) */
+  background-color: rgba(
+    229,
+    231,
+    235,
+    0.5
+  ); /* Color of the track (background of the scrollbar) */
   border-radius: 5px; /* Rounded corners on the track */
 }

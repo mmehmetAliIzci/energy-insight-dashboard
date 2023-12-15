@@ -24,8 +24,8 @@ module.exports = {
 
     extend: {
       colors: {
-        'altotechdark-02': 'var(--altotechdark-02)',
-        'altotechlight-02': 'var(--altotechlight-02)',
+        'netzerotechdark-02': 'var(--netzerotechdark-02)',
+        'netzerotechlight-02': 'var(--netzerotechlight-02)',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

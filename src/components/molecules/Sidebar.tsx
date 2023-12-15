@@ -22,20 +22,19 @@ export const Sidebar = () => {
 
   return (
     <aside
-      className={`flex flex-col border-r-1 border-solid border-gray bg-white ${
+      className={`border-r-1 border-gray flex flex-col border-solid bg-white ${
         isExpanded ? 'w-72' : 'w-20'
       } transition-all duration-100 ease-in-out`}
-      
     >
       <div
         className={`mb-20 mt-10 flex h-16 items-center ${
-          isExpanded ? 'px-2 md:pl-5' : 'px-2'
+          isExpanded ? 'px-2' : 'px-2'
         }`}
       >
         {isExpanded ? (
-          <Image src='/logo.png' alt='Logo' height={30} width={116} />
+          <Image src='/logo.png' alt='Logo' height={50} width={116} />
         ) : (
-          <Image src='/logo-small.jpg' alt='Logo' height={30} width={116} />
+          <Image src='/logo-small.png' alt='Logo' height={30} width={116} />
         )}
       </div>
       <nav className='flex-1'>
