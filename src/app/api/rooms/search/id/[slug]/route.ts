@@ -66,7 +66,7 @@ function generateRoomDetails(): RoomDetailsType {
       new Date(),
       -Math.floor(Math.random() * 60)
     ).toISOString(),
-    icon: 'https://via.placeholder.com/30',
+    icon: 'https://placedog.net/50',
   }));
 
   return {

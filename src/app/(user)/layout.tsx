@@ -12,7 +12,6 @@ export default function UserLayout({
 }) {
   return (
     <>
-      {/* here should be sidebar */}
       <div className='flex'>
         <Sidebar />
         <div className='flex min-h-screen w-full flex-col'>

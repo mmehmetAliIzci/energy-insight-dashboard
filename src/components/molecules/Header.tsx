@@ -3,12 +3,23 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import { Button } from '@/components/ui/button';
 import { useRouter } from 'next/navigation';
+import { toast } from '../ui/use-toast';
 
 const DynamicDateTimeComponent = dynamic(() => import('./DateTimeComponent'), {
   ssr: false,
 });
 
 export const Header = (): React.ReactNode => {
+  const handleRefreshClick = async () => {
+    // Display the toast message
+    toast({
+      title: 'Refreshing Data',
+      description: 'The data is being refreshed.',
+    });
+
+    // Refresh the page
+    await router.refresh();
+  };
   const router = useRouter();
   return (
     <>
@@ -26,7 +37,7 @@ export const Header = (): React.ReactNode => {
         </div>
         <Button
           onClick={() => {
-            router.refresh();
+            handleRefreshClick();
           }}
         >
           Refresh Data

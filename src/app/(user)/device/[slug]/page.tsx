@@ -60,7 +60,7 @@ export default async function DeviceDetail({
         </div>
         <div>
           <h2 className='mb-2 font-semibold'>Historical Data</h2>
-          <div className={'grid grid-cols-1 justify-center'}>
+          <div className={'grid grid-cols-2 justify-center'}>
             {deviceDetails.historicalData.map((data, index) => (
               <HistoricalDataChart key={index} data={data} />
             ))}

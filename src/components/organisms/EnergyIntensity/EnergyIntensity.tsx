@@ -6,7 +6,9 @@ import { EnergyIntensity } from '@/app/api/rooms/energy-intensity/route';
 
 async function fetchIntensity(): Promise<EnergyIntensity | undefined> {
   try {
-    const res = await fetch(`${process.env.API_URL}/api/rooms/energy-intensity`);
+    const res = await fetch(
+      `${process.env.API_URL}/api/rooms/energy-intensity`
+    );
     if (!res.ok) {
       throw new Error('Rooms api returned 200');
     }
