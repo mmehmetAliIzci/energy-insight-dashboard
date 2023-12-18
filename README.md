@@ -56,3 +56,7 @@ If granted more time, I would:
 - Implement universal logging.
 - Craft unit tests using Jest.
 - Design end-to-end tests using Playwright.
+
+## Time Spent
+
+September 2023 - 20hours+
